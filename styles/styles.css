@@ -192,6 +192,10 @@ body {
 
 }
 
+.badge-image2 {
+    width: 300px;
+}
+
 .play-install-img img {
     /* margin-top: 50px; */
 }
@@ -369,6 +373,10 @@ body {
 
         width: 50px;
 
+    }
+
+    .badge-image2 img {
+        width: 200px;
     }
 
     .games-container {
