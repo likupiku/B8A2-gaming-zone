@@ -158,6 +158,10 @@ body {
     font-size: 20px;
 }
 
+#card1 {
+    margin-top: 20px;
+}
+
 .online-title {
     font-size: 48px;
     font-weight: 700;
