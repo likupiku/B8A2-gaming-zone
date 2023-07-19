@@ -43,9 +43,9 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
-    margin-left: 200px;
+    justify-content: space-around;
+    /* gap: 50px; */
+    margin-left: 80px;
 }
 
 .menu-container a {
@@ -57,7 +57,7 @@ body {
 }
 
 .follow {
-    padding: 20px 40px;
+    padding: 20px 20px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
@@ -150,7 +150,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .card-description {
@@ -233,9 +233,9 @@ body {
 
 /* footer */
 .footer {
-    width: 100%;
+    width: 100vw;
     background-color: black;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .footer-logo {
@@ -295,6 +295,10 @@ body {
         width: 100%;
         flex-direction: column;
         gap: 30px;
+    }
+
+    .follow {
+        padding: 10px 20px;
     }
 
     .banner-container {
@@ -421,6 +425,10 @@ body {
         margin: auto;
     }
 
+    .follow {
+        border: 1px solid red;
+    }
+
     .banner-container {
         /* margin-top: 50px;
         margin-right: 50px; */
@@ -508,9 +516,9 @@ body {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .footer>p {
+    /* .footer>p {
         padding: 0;
-    }
+    } */
 
 
 }
