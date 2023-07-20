@@ -124,10 +124,13 @@ body {
 
 /* second part style */
 .second-container {
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    margin-left: -100px;
+    margin-top: 100px;
 }
 
 .second-title {
@@ -180,6 +183,7 @@ body {
 .play-install-title {
     width: 50%;
     /* border: 1px solid blue; */
+    margin-bottom: 150px;
 }
 
 .play-install-img {
@@ -345,6 +349,7 @@ body {
         gap: 50px;
         margin-top: 50px;
         width: 90%;
+        margin-left: 50px;
     }
 
     .second-img img {
@@ -375,7 +380,7 @@ body {
 
     .badge-image img {
 
-        width: 50px;
+        width: 200px;
 
     }
 
@@ -464,6 +469,16 @@ body {
         margin: auto;
     }
 
+    .badge-image img {
+
+        width: 200px;
+
+    }
+
+    .badge-image2 img {
+        width: 100px;
+    }
+
     .goat {
         font-size: 80px;
 
@@ -476,6 +491,7 @@ body {
     .second-container {
         flex-direction: column;
         margin-top: 100px;
+        margin-left: 40px;
     }
 
     .second-img img {
@@ -487,7 +503,7 @@ body {
     }
 
     .online-title {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .play-install-container {
